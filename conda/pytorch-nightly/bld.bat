@@ -5,6 +5,8 @@ set PYTORCH_BUILD_VERSION=%PKG_VERSION%
 set PYTORCH_BUILD_NUMBER=%PKG_BUILDNUM%
 
 set INSTALL_TEST=0
+echo "THIS IS FROM MY BRANCH"
+
 
 if "%USE_CUDA%" == "0" (
     set build_with_cuda=
