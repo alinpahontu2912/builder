@@ -1,5 +1,6 @@
 @echo off
 
+echo "THIS IS FROM MY BRANCH"
 echo The flags after configuring:
 echo USE_CUDA=%USE_CUDA%
 echo CMAKE_GENERATOR=%CMAKE_GENERATOR%

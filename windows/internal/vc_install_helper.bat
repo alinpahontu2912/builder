@@ -1,3 +1,4 @@
+echo "THIS IS FROM MY BRANCH"
 if "%VC_YEAR%" == "2019" powershell windows/internal/vs2019_install.ps1
 if "%VC_YEAR%" == "2022" (
   echo "Upgrading MSVC to 2022 is not supported in the CI for reliability reason. Please contact PyTorch Dev Infra for more information"

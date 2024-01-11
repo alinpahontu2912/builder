@@ -1,5 +1,5 @@
 @echo off
-
+echo "THIS IS FROM MY BRANCH"
 REM Check for optional components
 
 where /q ninja.exe
