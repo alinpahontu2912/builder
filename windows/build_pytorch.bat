@@ -38,7 +38,7 @@ set DESIRED_PYTHON_PREFIX=py%DESIRED_PYTHON_PREFIX:;=;py%
 set SRC_DIR=%~dp0
 pushd %SRC_DIR%
 
-echo "THIS IS FROM MY BRANCH"
+echo THIS IS FROM MY BRANCH
 
 :: Install Miniconda3
 set "CONDA_HOME=%CD%\conda"
